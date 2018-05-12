@@ -18,6 +18,7 @@ class Homepage extends CI_Controller {
 	}
 
   public function profil(){
+	  $data['aa'] = "Adit";
     echo "Ini halaman profil";
   }
 
